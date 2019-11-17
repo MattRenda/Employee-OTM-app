@@ -68,7 +68,7 @@ export default class AdminDashboard extends Component {
 
                 <TouchableOpacity onPress={() => this.viewUser(this.state.name)}><Text style={styles.center}>View user</Text></TouchableOpacity>
                 <TouchableOpacity onPress={() => this.removeUser(this.state.name)}><Text style={styles.center}>Delete user</Text></TouchableOpacity>
-                <TouchableOpacity onPress={() => this.removeAllUsers()}><Text style={styles.center}>Delete table</Text></TouchableOpacity>
+                <TouchableOpacity onPress={() => this.removeAllUsers()}><Text style={styles.center}>Delete all users</Text></TouchableOpacity>
 
                 <FlatList
                     style={{ backgroundColor: 'black', paddingBottom: PixelRatio.getPixelSizeForLayoutSize(150), paddingTop: PixelRatio.getPixelSizeForLayoutSize(20) }}
